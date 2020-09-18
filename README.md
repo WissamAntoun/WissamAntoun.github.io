@@ -1,156 +1,72 @@
-# DevBlog
+# [Start Bootstrap - Resume](https://startbootstrap.com/themes/resume/)
 
-DevBlog is a fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. It comes ready to go and deploy (with ease) or can be edited and extended however you like. The blog is completely statically generated via GatsbyJS, comes with syntax highlighting (via PrismJS) out of the box, and has server-side rendering built-in, among other things.
+[Resume](https://startbootstrap.com/themes/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devblog/).
+## Preview
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
+[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
 
-## Features
-* Fully responsive
-* Minimalistic
-* Customizable via a ```config.js``` file
-* Easy to deploy
-* Statically-generated via markdown files
-* Server-side rendering
-* Syntax highlighting via PrismJS
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
 
-## Contents
-* [Setup and Configuration](#setup-and-configuration)
-  * [Setup](#setup)
-  * [Configuration](#configuration)
-* [Creating New Posts](#creating-new-posts)
-* [Deploying](#deploying)
-* [Changelog](#changelog)
-* [License](#license)
+## Status
 
-## Setup and Configuration
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-resume/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-resume)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume?type=dev)
 
-### Setup
+## Download and Installation
 
-#### 1. Install Gatsby CLI
+To begin using this template, choose one of the following options to get started:
 
-The first step is to get the GatsbyJS CLI installed locally. This can be accomplished by running the command ```npm install --global gatsby-cli```
+- [Download the latest release on Start Bootstrap](https://startbootstrap.com/themes/resume/)
+- Install using npm: `npm i startbootstrap-resume`
+- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-resume.git`
+- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-resume)
 
-#### 2. Create a new Gatsby Site using this repo
+## Usage
 
-When creating a new Gatsby site, the CLI allows you to specify a starter, in this case simply provide the URL for this repo. This can be accomplished by running the command ```gatsby new YOUR_BLOG_NAME https://github.com/RyanFitzgerald/devblog```
+### Basic Usage
 
-#### 3. Edit or use the template as needed
+After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-Now you that you are setup, you can simply use the blog or make edits as needed. For example, run ```gatsby develop``` to start up a hot-reloaded development environment available at localhost:8000 or run ```gatsby build``` to build an optimized production build. For a complete list of CLI commands for Gatsby, take a look at their [documentation](https://www.gatsbyjs.org/docs/).
+### Advanced Usage
 
-#### Alternative Setup
+Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
-Alternatively, if you wish to simply fork this repo or clone it, then you simply need to run ```npm install``` and then ```gatsby develop``` afterwards and you'll be up and running.
+#### npm Scripts
 
-### Configuration
+- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
+- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
+- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
+- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
+- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
+- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
+- `npm run start:debug` runs the project in debug mode
+- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
-Basic configuration can be done via the ```config.js``` file in the root of the project repo. Through this file you can make edits to the primary color of the blog, add a blog author and description, and more. The defaults are as follows:
+You must have npm installed in order to use this build environment.
 
-```javascript
-export default {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
-  primaryColor: '#3498db', // Required
-  showHeaderImage: true,
-  showShareButtons: true,
-  postsPerPage: 5, // Required
-  social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald'
-  }
-};
-```
+## Bugs and Issues
 
-__Note:__ Any configuration option labelled as "Required" is needed for basic presentational purposes. Anything without the "Required" comment can be removed should you not want it used.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-resume/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/themes/resume/).
 
-#### Understanding the configuration variables
+## About
 
-The configuration variables referenced above are used as follows:
+Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-| Variable | Description of Use |
-|----------|--------------------|
-| title | The title of the blog. This is used for the page title primarily. |
-| author | The author of the blog. This is used for the header name and page title. |
-| description | The description of the author. This is used for the header under the author. |
-| primaryColor | The primary color of the blog. |
-| showHeaderImage | Flag to show the header image or not. |
-| showShareButtons  | Flag to show social media share buttons on each blog post or not. |
-| postsPerPage | The number of posts per page on the blog homepage. This is used for pagination. |
-| social | Social media profiles of the blog author. Currently only personal website, GitHub, Twitter, and LinkedIn are supported.|
+- <https://startbootstrap.com>
+- <https://twitter.com/SBootstrap>
 
-#### Changing the main header image
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
 
-To change the default header image, simply override the ```main.jpg``` file in the ```/src``` folder.
+- <http://davidmiller.io>
+- <https://twitter.com/davidmillerskt>
+- <https://github.com/davidtmiller>
 
-#### Changing the favicon
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-To change the default favicon, simply override the ```favicon.ico``` file in the ```/src``` folder.
+## Copyright and License
 
-## Creating New Posts
-
-All blog posts can be found in ```/src/pages``` and are statically built once the ```gatsby build``` command is run. To create a new post, simply create a new folder in ```/src/pages``` with the name of the url you'd like to have. For example, if you wish to have the url appear as ```myblog.com/hello-world``` you would create the folder as ```hello-world```. Once the folder is created, simply create an ```index.md``` file within it.
-
-The top of the pages must all contain the same markdown which tells Gatsby the needed information about the specific post. The basic template is:
-
-```markdown
----
-title: New Beginnings
-date: "2018-07-01"
-featuredImage: './featured.jpg'
----
-
-This top portion is the beginning of the post and will show up as the excerpt on the homepage.
-
-<!-- end -->
-```
-
-In the above code snippet all that is required is the **title** and the **date**. The featured image is optional and can be added by simply adding an image to the page folder you just created and referencing like the above example. The excerpt portion is optional as well and if you do not use the ```<!-- end -->``` marker, the first bit of the post will be used as the excerpt automatically.
-
-This template ships with 3 blog post examples which contain everything from code snippet usage, inserting images, using featured images and excerpts, and more.
-
-## Deploying
-
-Once you are ready to deploy the blog and make it live, you have a couple of options available to you.
-
-### Manual Deploy
-
-Manually deploying the blog simply requires you run a ```gatsby build``` in order to create a production build. After that, you can use any server you'd normally a React app to, such as a Digital Ocean droplet or an AWS instance. All that is required is some way to serve the static files.
-
-If you are unfamiliar with deploying React applications, there are a number of other options.
-
-### GitHub Pages
-
-In order to deploy to GitHub pages, you need to first set your path prefix in ```gatsby-config.js```. The default is ```pathPrefix: '/devblog'``` however this should be changed to whatever the repo name you chose is. For example, if you have the blog located in ```https://github.com/YOURUSERNAME/myblog``` and want it deployed to ```https://YOURUSERNAME.github.io/myblog``` then you would set the path prefix to ```pathPrefix: '/myblog'```.
-
-Next, simply run ```npm run deploy``` and your blog will be deployed.
-
-Alternatively, if you wish to deploy it to ```https://YOURUSERNAME.github.io``` (i.e. your user / organization site and not a project site), then a couple addition changes are required. The official Gatsby documentation has them outlined well [here](https://YOURUSERNAME.github.io).
-
-### Netlify
-
-One of the easiest methods of deploying the blog would be to use [Netlify](https://www.netlify.com/). To deploy to Netlify, simply click the button below and follow the prompts.
-
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
-
-### Other
-
-The options outlined above are not the only options available to you to deploy the blog. The official Gatsby documentation goes into detail about a number of other options. In order to read more about deployment options, [click here](https://www.gatsbyjs.org/docs/deploy-gatsby).
-
-## Changelog
-
-### 1.0.0
-* Initial release
-
-### 2.0.0
-* Upgrade to Gatsby 2.0.31 (Big thanks to [ttristan](https://github.com/ttristan) for the help)
-* Remove deprecated functions
-
-## License
-
-Licensed under MIT License. See [LICENSE.md](LICENSE.md) for more.
+Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/gh-pages/LICENSE) license.
