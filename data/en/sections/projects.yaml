@@ -1,0 +1,73 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+
+# your projects
+projects:
+  - name: AraBERT, AraELECTRA, and AraGPT2
+    logo: /images/sections/projects/arabert_logo.png
+    role: Owner
+    timeline: "Feb 2020"
+    repo: https://github.com/aub-mind/arabert # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    summary: Pre-trained Transformers for Arabic Language Understanding and Generation (Arabic BERT, Arabic GPT2, Arabic ELECTRA)
+    tags: [""]
+
+  - name: CamemBERTa
+    # logo: /images/sections/projects/arabert_logo.png
+    role: Owner
+    timeline: "Jan 2023"
+    repo: https://github.com/WissamAntoun/CamemBERTa # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    summary: Code for training DeBERTa V3 from scratch. Used to train CamemBERTa
+    tags: [""]
+
+  - name: GalacTex
+    logo: /images/sections/projects/GalacTex.png
+    role: Owner
+    timeline: "Dec 2023"
+    repo: https://github.com/WissamAntoun/GalacTex
+    #url: ""
+    summary: Self-Hosted Large Language Models for Overleaf
+    tags: [""]
+
+  - name: SlurmTUI
+    role: Owner
+    timeline: "Dec 2023"
+    repo: "https://github.com/WissamAntoun/SlurmTUI"
+    summary: Terminal UI for monitoring SLURM jobs
+    tags: [""]
+
+  - name: OarTUI
+    # logo: /images/sections/projects/oar.png
+    role: Nothing
+    timeline: "Jul 2023"
+    repo: "https://github.com/WissamAntoun/OarTUI"
+    #url: ""
+    summary: TUI for browsing, canceling, and inspecting OAR jobs on a cluster using only the terminal.
+    tags: [""]
+
+  # - name: Toha
+  #   logo: /images/sections/projects/toha.png
+  #   role: Owner
+  #   timeline: "Jun 2019 - Present"
+  #   repo: https://github.com/hossainemruz/toha
+  #   summary: A Hugo theme for personal portfolio.
+  #   tags: ["hobby", "hugo", "theme", "professional"]

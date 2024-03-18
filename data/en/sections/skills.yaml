@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: AI Frameworks
+    summary: "Experienced with most of the major AI frameworks such as PyTorch, TensorFlow, Keras, HuggingFace Transformers, Horovod, etc."
+
+  - name: Softwares
+    # logo: /images/sections/skills/cloud.png
+    summary: "Experienced with Triton Inference Server, FastAPI, Streamlit, Gradio, Grafana, Prometheus, Loki, ELK, HuggingFace Hub, etc."
+
+  - name: Software Tools
+    summary: "VSCode, Docker, WSL2, Singularity, Git, Github Actions,  Dev-Containers, Jupyter, Slurm, OAR, MPI, etc."
+
+  - name: Languages
+    # logo: /images/sections/skills/go.png
+    summary: "Experienced with Python, C/C++, CUDA, shell scripting, LaTeX, and Matlab. Some Java and C#."
+    # url: "https://golang.org/"
