@@ -2,7 +2,7 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: false
+  enable: true
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,34 +10,44 @@ section:
 
 # Your accomplishments
 accomplishments:
-  - name: Linux Foundation System Administrator
-    timeline: "March 2018 - March 2019"
+  - name: First Place, Arabic Sentiment Analysis 2021 @ KAUST
+    timeline: "Aug. 2021"
     organization:
-      name: Linux Foundation
-      url: https://www.linuxfoundation.org
-    courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-    certificateURL: "https://example.com"
+      name: Announcment
+      url: https://sites.aub.edu.lb/mindlab/2021/08/18/1st-place-in-arabic-sentiment-analysis-2021-kaust/
+    courseOverview: The competition required building machine learning models that can determine the sentiment (positive, negative, neutral) behind Arabic text (tweets), with a prize of 10000 USD, 5000 USD, and 2000 USD to the first, second and third place winners, respectively. The competition ran for 3 months, with 74 teams participating and submitting their predictions. Wissam ranked 3rd on the public leaderboard when the submission window closed. Top-ranked participants were then invited to submit and share their codes to the organizers for the final evaluation on another private 20,000 tweets dataset. Wissam’s submission scored the highest on the private dataset.
+    certificateURL: ""
 
-  - name: Machine Learning
-    timeline: "Jun 2020 - Jan 2021"
+  - name: Second Place, OSACT4‑Shared task on Offensive Language Detection
+    timeline: "May 2020"
     organization:
-      name: Coursera
-      url: https://www.coursera.org
-    courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-    certificateURL: "https://example.com"
+      name: OSACT4
+      url: https://aclanthology.org/2020.osact-1.8/
+    courseOverview: "The rise of offensive speech, including vulgar or targeted insults, reflects increasing polarization in society, amplified by social media. A shared task aims to detect such speech in Arabic social media using the SemEval 2020 dataset, which includes manually annotated tweets for offensiveness (OFF or NOT_OFF) and hate speech (HS or NOT_HS). The dataset is split into train, dev, and test sets, with subtasks for offensive language and hate speech detection. Subtask B, identifying hate speech, is more challenging due to its lower prevalence. Our team won second place in both tasks, advancing research on offensive content and hate speech identification in Arabic tweets."
+    # certificateURL: "https://example.com"
 
-  - name: Grokking the System Design Interview
-    timeline: "Jan 2018 - Sept 2018"
+  - name: Abdul Hadi Debs Endowment Award for Academic Excellence Nominee
+    timeline: "August 2021"
     organization:
-      name: educative
-      url: https://www.educative.io
-    courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-    certificateURL: "https://example.com"
+      name: American University of Beirut
+      url: https://aub.edu.lb/msfea/Pages/studentawards-abdulHadidebs-endowment.aspx
+    courseOverview: The Abdul Hadi Debs Endowment Award for Academic Excellence is a $1,000 endowment to a student at the graduate level who has an outstanding academic record and has demonstrated research capabilities through a paper, project, or thesis deemed by the faculty to be worthy of publication.​ I was nominated for this award by the Department of Electrical and Computer Engineering.
+    certificateURL: "https://aub.edu.lb/msfea/Pages/studentawards-abdulHadidebs-endowment.aspx"
 
-  - name: Mastering Multithreading Programming with Go (Golang)
-    timeline: "Nov 2017 - Mar 2018"
+  - name: Best Domain Detection System
+    timeline: "2019"
     organization:
-      name: Udemy
-      url: https://www.udemy.com
-    courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-    certificateURL: "https://example.com"
+      name: Qatar International Fake News Detection and Annotation Contest
+      url: https://sites.google.com/view/fakenews-contest
+    courseOverview: In Track 1-A, we developed a machine learning model to detect fake news and identify the news domain, using an annotated training corpus provided via email. In Track 1-B, we built a model to distinguish between bot and human Twitter accounts, also using an annotated dataset provided by Marc Jones. I received recognition for creating the best domain detection system in Track 1-A.
+    # certificateURL: "https://example.com"
+  - name: Second Place, Best car price prediction score
+    timeline: "2019"
+    organization:
+      name: Mindsets‑OLX Datatho
+      url: www.kaggle.com/c/mindsets
+  - name: First place, Music Genre Classification
+    timeline: "2019"
+    organization:
+      name: Big Data, AI, and Media Hackathon Powered by Touch and Anghami
+      url: https://www.kaggle.com/c/mindsets

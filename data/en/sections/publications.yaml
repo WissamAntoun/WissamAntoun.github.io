@@ -3,7 +3,7 @@ section:
   name: Publications
   id: publications
   enable: false
-  weight: 6
+  weight: 11
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -21,62 +21,110 @@ buttons:
 
 # your publications
 publications:
-  - title: An Example Paper on Machine Learning
+  - title: Harvesting Textual and Structured Data from the HAL Publication Repository
     publishedIn:
-      name: 2020 IEEE Region Symposium (TENSYMP)
-      date: 7 June 2020
-      url: https://example.com
+      name: ArXiv Pre-Print
+      date: 30 June 2024
+      url: https://arxiv.org/abs/2407.20595
     authors:
-      - name: Dr. Madman
-        url: https://example.com
-      - name: Dr. Lessmad
-        url: https://example.com
-      - name: Dr. Moremad
-        url: https://example.com
-      - name: Dr. Goodman
-        url: https://example.com
+      - name: Francis Kulumba
+        url: https://www.madjakul.com/
+      - name: Wissam Antoun
+        url: https://wissamantoun.com/
+      - name: Guillaume Vimont
+        url: https://www.linkedin.com/in/vimontguillaume/
+      - name: Laurent Romary
+        url: https://www.inria.fr/en/laurent-romary
     paper:
-      summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-      url: https://example.com
-    categories: ["machinelearning", "image-processing"]
-    tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+      summary: HAL (Hyper Articles en Ligne) is the French national publication repository, used by most higher education and research organizations for their open science policy. As a digital library, it is a rich repository of scholarly documents, but its potential for advanced research has been underutilized. We present HALvest, a unique dataset that bridges the gap between citation networks and the full text of papers submitted on HAL. We craft our dataset by filtering HAL for scholarly publications, resulting in approximately 700,000 documents, spanning 34 languages across 13 identified domains, suitable for language model training, and yielding approximately 16.5 billion tokens (with 8 billion in French and 7 billion in English, the most represented languages). We transform the metadata of each paper into a citation network, producing a directed heterogeneous graph. This graph includes uniquely identified authors on HAL, as well as all open submitted papers, and their citations. We provide a baseline for authorship attribution using the dataset, implement a range of state-of-the-art models in graph representation learning for link prediction, and discuss the usefulness of our generated knowledge graph structure.
+      url: https://arxiv.org/abs/2407.20595
+    categories: ["machinelearning", "artificial-intelligence", "graphs"]
+    tags:
+      [
+        "Knowledge Graphs",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+      ]
 
-  - title: An Sample Paper on Image Processing
+  - title: "From text to source: Results in detecting large language model-generated content"
     publishedIn:
-      name: 2020 IEEE Region Symposium (TENSYMP)
-      date: 7 June 2020
-      url: https://example.com
+      name: LREC-COLING 2024
+      date: 2024
+      url: https://aclanthology.org/2024.lrec-main.665/
     authors:
-      - name: Dr. Madman
-        url: https://example.com
-      - name: Dr. Lessmad
-        url: https://example.com
-      - name: Dr. Moremad
-        url: https://example.com
-      - name: Dr. Goodman
-        url: https://example.com
+      - name: Wissam Antoun
+        url: https://wissamantoun.com/
+      - name: Benoît Sagot
+        url: http://alpage.inria.fr/~sagot/
+      - name: Djamé Seddah
+        url: https://pauillac.inria.fr/~seddah/
     paper:
-      summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-      url: https://example.com
-    categories: ["image-processing"]
-    tags: ["Image Processing", "Computer Vision"]
+      summary: "This paper investigates “Cross-Model Detection,” by evaluating whether a classifier trained to distinguish between source LLM-generated and human-written text can also detect text from a target LLM without further training. The study comprehensively explores various LLM sizes and families and assesses the impact of conversational fine-tuning techniques, quantization, and watermarking on classifier generalization. The research also explores Model Attribution, encompassing source model identification, model family, and model size classification, in addition to quantization and watermarking detection. Our results reveal several key findings: a clear inverse relationship between classifier effectiveness and model size, with larger LLMs being more challenging to detect, especially when the classifier is trained on data from smaller models. Training on data from similarly sized LLMs can improve detection performance from larger models but may lead to decreased performance when dealing with smaller models. Additionally, model attribution experiments show promising results in identifying source models and model families, highlighting detectable signatures in LLM-generated text, with particularly remarkable outcomes in watermarking detection, while no detectable signatures of quantization were observed. Overall, our study contributes valuable insights into the interplay of model size, family, and training data in LLM detection and attribution."
+      url: https://aclanthology.org/2024.lrec-main.665/
+    categories: ["machinelearning", "artificial-intelligence", "mgt-detection"]
+    tags:
+      [
+        "Machine-Generated Text Detection",
+        "Large Language Models",
+        "Model Attribution",
+        "Artificial Intelligence",
+      ]
 
-  - title: An Example Paper on Security
+  - title: "Towards a Robust Detection of Language Model Generated Text: Is ChatGPT that Easy to Detect?"
     publishedIn:
-      name: 2020 IEEE Region Symposium (TENSYMP)
-      date: 7 June 2020
-      url: https://example.com
+      name: CORIA-TALN 2023
+      date: June 2023
+      url: https://arxiv.org/abs/2306.05871
     authors:
-      - name: Dr. Madman
-        url: https://example.com
-      - name: Dr. Lessmad
-        url: https://example.com
-      - name: Dr. Moremad
-        url: https://example.com
-      - name: Dr. Goodman
-        url: https://example.com
+      - name: Wissam Antoun
+        url: https://wissamantoun.com/
+      - name: Virginie Mouilleron
+        url: https://linkedin.com/in/virginie-mouilleron-07956032
+      - name: Benoît Sagot
+        url: http://alpage.inria.fr/~sagot/
+      - name: Djamé Seddah
+        url: https://pauillac.inria.fr/~seddah/
     paper:
-      summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-      url: https://example.com
-    categories: ["security"]
-    tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+      summary: "This paper proposes a methodology for developing and evaluating ChatGPT detectors for French text, with a focus on investigating their robustness on out-of-domain data and against common attack schemes. The proposed method involves translating an English dataset into French and training a classifier on the translated data. Results show that the detectors can effectively detect ChatGPT-generated text, with a degree of robustness against basic attack techniques in in-domain settings. However, vulnerabilities are evident in out-of-domain contexts, highlighting the challenge of detecting adversarial text. The study emphasizes caution when applying in-domain testing results to a wider variety of content. We provide our translated datasets and models as open-source resources."
+      url: https://arxiv.org/abs/2306.05871
+    categories: ["machinelearning", "artificial-intelligence", "mgt-detection"]
+    tags:
+      ["Machine-Generated Text Detection", "ChatGPT", "Artificial Intelligence"]
+
+  - title: "Data-Efficient French Language Modeling with CamemBERTa"
+    publishedIn:
+      name: Findings of ACL 2023
+      date: July 2023
+      url: https://aclanthology.org/2023.findings-acl.320/
+    authors:
+      - name: Wissam Antoun
+        url: https://wissamantoun.com/
+      - name: Benoît Sagot
+        url: http://alpage.inria.fr/~sagot/
+      - name: Djamé Seddah
+        url: https://pauillac.inria.fr/~seddah/
+    paper:
+      summary: "In this paper, we introduce CamemBERTa, a French DeBERTa model that builds upon the DeBERTaV3 architecture and training objective. We evaluate our model’s performance on a variety of French downstream tasks and datasets, including question answering, part-of-speech tagging, dependency parsing, named entity recognition, and the FLUE benchmark, and compare against CamemBERT, the state-of-the-art monolingual model for French. Our results show that, given the same amount of training tokens, our model outperforms BERT-based models trained with MLM on most tasks. Furthermore, our new model reaches similar or superior performance on downstream tasks compared to CamemBERT, despite being trained on only 30% of its total number of input tokens. In addition to our experimental results, we also publicly release the weights and code implementation of CamemBERTa, making it the first publicly available DeBERTaV3 model outside of the original paper and the first openly available implementation of a DeBERTaV3 training objective."
+      url: https://aclanthology.org/2023.findings-acl.320/
+    categories: ["machinelearning", "artificial-intelligence", "llm"]
+    tags: ["Language Modeling", "French NLP", "Artificial Intelligence"]
+
+  - title: "Reconnaissance des entités nommées pour l'analyse des pharmacopées médiévales"
+    publishedIn:
+      name: EGC 2023-Extraction et Gestion des Connaissances
+      date: 16 January 2023
+      url: https://inria.hal.science/hal-03934557/
+    authors:
+      - name: Karim El Haff
+        url: https://www.linkedin.com/in/karim-el-haff-55713b195
+      - name: Wissam Antoun
+        url: https://wissamantoun.com/
+      - name: Florence Le Ber
+        url: https://sdc.icube.unistra.fr/en/index.php/Florence_le_Ber
+      - name: Véronique Pitchon
+        url: https://archimede.unistra.fr/laboratoire/les-membres/membres-titulaires/veronique-pitchon
+    paper:
+      summary: "Aujourd’hui, de nombreux projets se focalisent sur l’application des technologies linguistiques sur des corpus de médecine moderne surtout en matière de reconnaissance des entités nommées. Par ailleurs, les pharmacopées anciennes sont explorées avec une saisie manuelle des données par des spécialistes d’histoire et de biologie pour en retirer des connaissances. Ces analyses sont réalisées sans nécessairement passer par la reconnaissance des entités nommées, ce qui pourrait pourtant accélérer l’exploration des manuscrits. Par conséquent, nous proposons ici un mariage entre les deux pratiques par:(1) la création d’un ensemble de données de reconnaissance d’entités nommées pour les traductions anglaises de pharmacopées arabes médiévales et (2) l’entraînement et l’évaluation de modèles de langue pré-entraînés sur plusieurs domaines."
+      url: https://inria.hal.science/hal-03934557/
+    categories: ["machinelearning", "artificial-intelligence", "nlp"]
+    tags: ["NLP", "Artificial Intelligence"]
