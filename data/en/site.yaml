@@ -27,3 +27,5 @@ openGraph:
   description: Portfolio and personal blog of Wissam Antoun.
   image: images/author/wissam_profile_cropped.png
   url: https://wissamantoun.github.io
+
+navBarTitle: ""
