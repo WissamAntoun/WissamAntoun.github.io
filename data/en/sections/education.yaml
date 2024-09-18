@@ -49,7 +49,7 @@ degrees:
       name: Notre Dame University - Louaize
       url: "https://www.ndu.edu.lb/"
       # logo: /images/sections/education/tech_college.png
-    custonSections: #(optional)
+    customSections: #(optional)
       - name: Focus
         content: Communications and Networking, Antennas and Propagation, and Digital Signal Processing
       - name: Awards
