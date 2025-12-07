@@ -115,10 +115,10 @@ Also since the containers are based on Baidu&rsquo;s registry i wasn&rsquo;t abl
 </span></span><span style=display:flex><span>      <span style=color:#f92672>dockerfile</span>: <span style=color:#ae81ff>Dockerfile</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./model-cache/:/root/.paddlex/official_models/</span>
-</span></span><span style=display:flex><span>      <span style=color:#75715e># - ./paddlex_ocr_pipeline.py:/usr/local/lib/python3.10/dist-packages/paddlex/inference/pipelines/ocr/pipeline.py</span>
-</span></span><span style=display:flex><span>      <span style=color:#75715e># - ./paddlex_ocr_result.py:/usr/local/lib/python3.10/dist-packages/paddlex/inference/pipelines/ocr/result.py</span>
-</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./paddlex_ocr_pipeline.py:/root/PaddleX/paddlex/inference/pipelines/ocr/pipeline.py</span>
-</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./paddlex_ocr_result.py:/root/PaddleX/paddlex/inference/pipelines/ocr/result.py</span>
+</span></span><span style=display:flex><span>      <span style=color:#75715e># - ./paddle_ocr/paddlex_ocr_pipeline.py:/usr/local/lib/python3.10/dist-packages/paddlex/inference/pipelines/ocr/pipeline.py</span>
+</span></span><span style=display:flex><span>      <span style=color:#75715e># - ./paddle_ocr/paddlex_ocr_result.py:/usr/local/lib/python3.10/dist-packages/paddlex/inference/pipelines/ocr/result.py</span>
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./paddle_ocr/paddlex_ocr_pipeline.py:/root/PaddleX/paddlex/inference/pipelines/ocr/pipeline.py</span>
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./paddle_ocr/paddlex_ocr_result.py:/root/PaddleX/paddlex/inference/pipelines/ocr/result.py</span>
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./paddle_ocr/OCR.yaml:/OCR.yaml</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>ports</span>:
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;8866:8080&#34;</span>
