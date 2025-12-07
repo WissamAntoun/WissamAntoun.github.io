@@ -8,4 +8,4 @@ toolchain go1.23.1
 //     github.com/hugo-toha/toha/v4 => ../toha
 // )
 
-require github.com/hugo-toha/toha/v4 v4.5.1-0.20240907213421-aab2b39c5029 // indirect
+require github.com/hugo-toha/toha/v4 v4.12.0 // indirect

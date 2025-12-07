@@ -30,7 +30,6 @@
       "postcss-cli": "github.com/hugo-toha/toha/v4"
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -45,7 +44,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "feather-icons": "^4.29.1",
     "filterizr": "^2.2.4",
-    "flag-icon-css": "^4.1.7",
+    "flag-icons": "^7.5.0",
     "fuse.js": "^6.6.2",
     "highlight.js": "^11.6.0",
     "imagesloaded": "^5.0.0",
@@ -57,7 +56,8 @@
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
     "postcss": "^8.4.31",
-    "postcss-cli": "^8.3.1"
+    "postcss-cli": "^8.3.1",
+    "typeit": "^8.8.7"
   },
   "name": "hugo-toha.github.io",
   "version": "0.1.0"
