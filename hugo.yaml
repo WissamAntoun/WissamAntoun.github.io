@@ -83,7 +83,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -104,10 +104,10 @@ params:
 
     # Enable comment feature. There, should be only one of them.
     comment:
-      enable: false
+      enable: true
       services:
-        disqus:
-          shortName: toha-example-site
+        # disqus:
+        #   shortName: toha-example-site
         # valine:
         #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
         #   appKey: pVrT3C85KGIuk27t07eh6bUC
@@ -120,11 +120,17 @@ params:
         #   repo: github.com/hugo-toha/hugo-toha.github.io
         #   issueTerm: title
         #   theme: github-light
-        # giscus:
-        #   repo: your-repo/name
-        #   repoID: your-repo-id
-        #   category: your-category
-        #   categoryID: your-category-id
+        giscus:
+          repo: WissamAntoun/WissamAntoun.github.io
+          repoID: R_kgDOLht4kA
+          category: General
+          categoryID: DIC_kwDOLht4kM4CzgOP
+          theme: preferred_color_scheme
+          map: pathname
+          reaction: 1
+          metadata: 0
+          inputPosition: top
+          crossOrigin: anonymous
         # theme: light
         # map: url
         # reaction: 1
