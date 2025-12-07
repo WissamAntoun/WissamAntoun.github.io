@@ -22,7 +22,7 @@ description: Portfolio and personal blog of Wissam Antoun.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Wissam's Site
+  title: Wissam's Personal Site
   type: website
   description: Portfolio and personal blog of Wissam Antoun.
   image: images/author/wissam_profile_cropped.png

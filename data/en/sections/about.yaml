@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: PhD Student in AI
+designation: PhD Candidate in AI
 # your company information
 company:
   name: ALMAnaCH - INRIA, Paris
@@ -18,8 +18,7 @@ company:
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
-# a summary about you
-summary: "Artificial Intelligence and Machine Learning PhD Student and Engineer specialised in state‑of‑the‑art Natural Language Processing techniques. I worked on several NLP projects, including [AraBERT, AraELECTRA, and AraGPT2](https://github.com/aub-mind/arabert), and [CamemBERTa](https://github.com/WissamAntoun/CamemBERTa)"
+summary: "I'm now a PhD Candidate in the ALMAnaCH team at Inria‑Paris, continuing my research on LLMs and AI weaponization and safety. I have published and released several state‑of‑the‑art French LLMs such as the [Gaperon French LLM Suite](https://huggingface.co/collections/almanach/gaperon) (1.5B, 8B, and 24B trained from scratch), [ModernCamemBERT](https://huggingface.co/collections/almanach/moderncamembert), [CamemBERTa (v1 and v2), and CamemBERT v2](https://huggingface.co/almanach/models?search=camemberta). During my masters, I published [AraBERT](https://github.com/aub-mind/arabert), the first and most influential AI models for Arabic text representation, which is now the most cited Arabic AI paper and GitHub repository. In 2020, I also developed [AraGPT2](https://github.com/aub-mind/arabert) (1.5B), the first Arabic LLM and the first LLM created outside of US and China. I also ranked in top places in almost all AI competitions that i participated in and was nominated for the Abdul Hadi Debs Endowment Award for Academic Excellence."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
