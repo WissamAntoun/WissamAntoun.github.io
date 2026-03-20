@@ -6,7 +6,7 @@ description: "A Python TUI I built during my PhD to keep my sanity while managin
 theme: Toha
 menu:
     sidebar:
-        name: "SlurmTUI: A Terminal UI for Managing Slurm Jobs"
+        name: "SlurmTUI: Terminal UI for Slurm"
         identifier: slurmtui
         parent: software
         weight: 110
