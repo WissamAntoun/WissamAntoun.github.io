@@ -1,8 +1,8 @@
 ---
-title: Software Projects
+title: Software Tools
 menu:
   sidebar:
-    name: Software Projects
+    name: Software Tools
     identifier: software
     weight: 101
 ---
