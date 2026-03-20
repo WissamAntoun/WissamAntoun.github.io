@@ -8,4 +8,5 @@ section:
 
 # posts to feature
 posts:
+  - slurmtui
   - immich-fast-ocr-paddlex
