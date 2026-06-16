@@ -22,7 +22,7 @@ I am giving two tutorials at the [CEA-EDF-INRIA Computer Science School 2026](ht
 The slides are available here:
 
 - **Monday, 15:00-18:00 - Data Cleaning and Pretraining:** [download the slides](https://wiss.dev/files/chefs_guide_data_cleaning_pretraining.pdf)
-- **Tuesday, 15:00-18:00 - LLMs and AI Safety:** slides coming soon
+- **Tuesday, 15:00-18:00 - LLMs and AI Safety:** [download the slides](https://wiss.dev/files/llm_safety_guardrails.pdf)
 
 ## Monday: Data Cleaning and Pretraining
 
