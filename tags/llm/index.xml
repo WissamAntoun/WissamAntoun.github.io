@@ -2,7 +2,7 @@
 &lt;p&gt;The slides are available here:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Monday, 15:00-18:00 - Data Cleaning and Pretraining:&lt;/strong&gt; &lt;a href="https://wiss.dev/files/chefs_guide_data_cleaning_pretraining.pdf" target="_blank" rel="noopener"&gt;download the slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tuesday, 15:00-18:00 - LLMs and AI Safety:&lt;/strong&gt; slides coming soon&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tuesday, 15:00-18:00 - LLMs and AI Safety:&lt;/strong&gt; &lt;a href="https://wiss.dev/files/llm_safety_guardrails.pdf" target="_blank" rel="noopener"&gt;download the slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="monday-data-cleaning-and-pretraining"&gt;Monday: Data Cleaning and Pretraining&lt;/h2&gt;
 &lt;p&gt;This session follows the life of a model before it is &amp;ldquo;ready&amp;rdquo;: collecting data at scale, cleaning and filtering it, building diverse training mixtures, and using self-supervised learning for pretraining. We will also look at why source code is such a useful data modality for strengthening logical reasoning and structured problem solving in LLMs.&lt;/p&gt;</description></item></channel></rss>
